@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'visitor';
+  a = 0;
+  b = 0;
+  hasil = 0;
+
+  
+
+  hitung(a, b){
+    this.hasil = Math.pow(a,b);
+    return this.hasil;
+  }
 }
